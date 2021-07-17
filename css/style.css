@@ -1,0 +1,189 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+#galery,#servise,#designmakers,#pack,#contacts{
+
+}
+#menu ol{
+	list-style-type: none;
+}
+#menu a{
+	font-weight: 700;
+	display: block;
+	width: 100%;
+	padding: 8px 10px;
+	color:white;
+	text-decoration: none;
+	border-width: 2px;
+	border-style: solid;
+	border-color: transparent;
+}
+#menu h3{
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+#menu{
+	color:white;
+	padding:10px 20px;
+	width: 230px;
+	background-color:#45015d;
+	height:100%;
+	position:fixed; 
+	border-radius:15px; 
+}
+.container{
+	/*width: ;*/
+	padding-right: 10%;
+	margin-left: 300px;
+}
+.container h2{
+	padding-top: 50px;
+}
+#menu a:hover{
+	color:#45015d;
+	background-color: white;
+	border-color: #45015d;
+}
+#gallery{
+	text-align: center;
+	/*margin-right: 150px;*/
+}
+.title h2{
+	text-align: left;
+	color: #45015d;
+	font-size: 46px;
+	font-weight: bold;
+}
+.line{
+	margin-bottom: 20px;
+	height: 5px;
+	width: 100%;
+	background-color: #45015d;
+	border-radius: 10px;
+}
+#gallery img{
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 5px auto;
+	height: 250px;
+	width: 400px;
+	opacity: 0.7;
+}
+#gallery img:hover{
+	opacity: 1;
+}
+.shadow{
+	color: gray;
+}
+.cards{
+	text-align: center;
+}
+.card{
+	margin-top: 10px;
+	width: 300px;
+	display: inline-block;
+	padding:8px;
+}
+.card img{
+	border-radius: 10px;
+	width: 100%;
+}
+.discription{
+	border-radius: 8px;
+	background-color:#f1f1f1 ;
+	padding:2px 8px;
+}
+.tariffs{
+	text-align: center;
+}
+.tariff{
+	display: inline-block;
+	width:400px;
+	margin: 20px;
+	list-style-type: none;
+	text-align: center;
+	background-color: #f1f1f1;
+	border-radius: 10px;
+}
+.tariff li{
+	padding: 10px;
+	border-bottom-width:1px ;
+	border-bottom-style: solid;
+	border-bottom-color: whitesmoke;
+}
+.pack-name{
+
+	height: 70px ;
+	background-color:#45015d;
+	border-radius: 10px;
+	color: white;
+	font-size: 30px;
+}
+.pro .pack-name{
+	background-color:red;
+}
+.pack-prise{
+	font-size:30px;
+}
+.pack-period{
+	font-size: 15px;
+	color: gray;
+}
+.tariff button{
+	color:#45015d;
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 15px;
+	padding: 12px;
+}
+.pro button{
+	background-color: red;
+	color: white;
+}
+button:hover{
+	color: white;
+	background-color: black;
+}
+.form{
+	text-align: left;
+	display:block;
+	height: 80%;
+}
+.form button{
+	background-color:#45015d;
+	color: white;
+	border-width: 0px;
+	border-radius: 8px;
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+}
+label,input,textarea{
+	display:block;
+	margin-bottom: 10px;
+	width: 100%;
+}
+textarea{
+	resize: vertical;
+}
+input{
+	padding: 10px;
+}
+.a{
+	text-decoration: underline;
+}
+.powered{
+	padding:40px;
+	text-align: right;
+	background-color:#f1f1f1 ;
+	margin-top: 50px;
+}
