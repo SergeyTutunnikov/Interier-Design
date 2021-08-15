@@ -78,14 +78,14 @@ label[for="menu-x"]>span::after{
 	bottom: -8px;
 }
 #menu-x:checked +label>span{
-	transform: rotate(225deg);
+	transform: rotate(45deg);
 }
 #menu-x:checked +label>span::before{
 	top: 0px;
-	transform: rotate(180deg);
+	transform: rotate(0deg);
 }
 #menu-x:checked +label>span::after{
-	transform: rotate(270deg);
+	transform: rotate(90deg);
 	bottom: 0px;
 }
 #menu-x:checked ~ul{
