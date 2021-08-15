@@ -67,7 +67,7 @@ label[for="menu-x"]>span,label[for="menu-x"]>span::before,label[for="menu-x"]>sp
 	width: 20px;
 	height: 2px;
 	background-color: #616161;
-	transition: 1.2;
+	transition: 0.7;
 }
 label[for="menu-x"]>span::before{
 	content:"";
@@ -82,7 +82,7 @@ label[for="menu-x"]>span::after{
 }
 #menu-x:checked +label>span::before{
 	top: 0px;
-	transform: rotate(360deg);
+	transform: rotate(180deg);
 }
 #menu-x:checked +label>span::after{
 	transform: rotate(270deg);
