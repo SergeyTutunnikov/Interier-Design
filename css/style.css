@@ -10,6 +10,84 @@ html{
 #galery,#servise,#designmakers,#pack,#contacts{
 
 }
+.burger-menu{
+	display: none;
+}
+#menu-x{
+	opacity: 0;
+}
+a{
+	text-decoration: none;
+}
+.burger-menu>label{
+	background-color: skyblue;
+	display: flex;
+	align-items:center ;
+	position: fixed;
+	padding: 5px;
+	top: 30px;
+	left: 30px;
+	width:30px;
+	height:30px;
+	z-index: 11;
+	cursor: pointer;
+}
+.burger-menu>label:hover{
+	color: white;
+}
+.burger-menu ul{
+	z-index: 10;
+	transition: 0.7s;
+	transform:translateX(-100%) ;
+	top: 0px;
+	display:block;
+	position: fixed;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	padding: 80px 0;
+	background-color:#45015d;
+}
+.burger-menu a{
+	display: block;
+	font-size: 20px;
+	padding: 12px 20px;
+	color:skyblue;
+}
+.burger-menu a:hover{
+	color: white;
+	background-color: black;
+}
+label[for="menu-x"]>span,label[for="menu-x"]>span::before,label[for="menu-x"]>span::after{
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 2px;
+	background-color: #616161;
+	transition: 0.5s;
+}
+label[for="menu-x"]>span::before{
+	content:"";
+	top: -8px;
+}
+label[for="menu-x"]>span::after{
+	content:"";
+	bottom: -8px;
+}
+#menu-x:checked +label>span{
+	transform: rotate(45deg);
+}
+#menu-x:checked +label>span::before{
+	top: 0px;
+	transform: rotate(0deg);
+}
+#menu-x:checked +label>span::after{
+	transform: rotate(90deg);
+	bottom: 0px;
+}
+#menu-x:checked ~ul{
+	transform: translateX(0%);
+}
 #menu ol{
 	list-style-type: none;
 }
