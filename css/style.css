@@ -67,7 +67,7 @@ label[for="menu-x"]>span,label[for="menu-x"]>span::before,label[for="menu-x"]>sp
 	width: 20px;
 	height: 2px;
 	background-color: #616161;
-	transition: 0.5s;
+	transition: 1.2;
 }
 label[for="menu-x"]>span::before{
 	content:"";
